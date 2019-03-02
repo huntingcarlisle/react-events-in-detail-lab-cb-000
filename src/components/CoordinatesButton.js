@@ -10,7 +10,7 @@ export default class CoordinatesButton extends React.Component {
   render() {
     return (
       <div>
-      <button></button>
+      <button on></button>
       </div>
       );
   }

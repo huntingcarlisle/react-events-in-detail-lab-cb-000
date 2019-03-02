@@ -3,6 +3,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 export default class CoordinatesButton extends React.Component {
+  callbackProp = () => {
+    return console.log(event.)
+  }
+  
   render() {
     return (
       <div>

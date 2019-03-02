@@ -4,6 +4,10 @@ import ReactDOM from 'react-dom';
 
 export default class DelayedButton extends React.Component {
   render() {
-    return null;
+    return (
+      <div>
+      <button></button>
+      </div>
+      );
   }
 }

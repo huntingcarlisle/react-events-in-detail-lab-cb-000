@@ -3,10 +3,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 export default class DelayedButton extends React.Component {
+  handleClick = () => {
+    
+  }
+  
   render() {
     return (
       <div>
-      <button></button>
+      <button onClick={this.handleClick}></button>
       </div>
       );
   }

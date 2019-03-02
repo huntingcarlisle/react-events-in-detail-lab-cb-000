@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 
 export default class CoordinatesButton extends React.Component {
   handleClick = (event) => {
-    this.props.onReceiveCoordinates([event.ClientX])
+    this.props.onReceiveCoordinates([event.clientX])
   }
   
   render() {
